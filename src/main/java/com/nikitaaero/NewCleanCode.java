@@ -3,7 +3,11 @@ package com.nikitaaero;
 public class NewCleanCode {
 
     public int mult(int a) {
-        System.out.println("code smell");
-        return a * 2 - 4;
+        if (a == 0) {
+            return 2;
+        }
+        else {
+            return a * a  - 4;
+        }
     }
 }
