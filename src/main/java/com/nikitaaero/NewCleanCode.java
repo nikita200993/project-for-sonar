@@ -5,8 +5,7 @@ public class NewCleanCode {
     public int mult(int a) {
         if (a == 0) {
             return 2;
-        }
-        else {
+        } else {
             return a * a  - 4;
         }
     }
